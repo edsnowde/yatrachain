@@ -36,17 +36,29 @@ It uses Google Maps API for location tracking and visualization, helping citizen
 yatrachain/
 │
 ├── lib/
+
 │ ├── main.dart # Entry point
+
 │ ├── main_screen.dart # Bottom navigation bar controller
+
   ├──pages
+  
 │         ├── home_page.dart # Gradient intro page
+
 │         ├── trip_tracking_page.dart# Map + trip detection
+
 │         └── trips_page.dart # List of previous trips
+
 │
+
 ├── assets/
+
 │ └── travel.png # App illustration
 │
+
+
 ├── pubspec.yaml # Flutter dependencies
+
 └── README.md # This file
 
 
